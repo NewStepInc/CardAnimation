@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/gamelist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_starburst"
+            android:src="@drawable/button_icon_backarrow_big" />
+
+        <ImageView
+            android:id="@+id/gameinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/gamelist"
+            android:background="@drawable/bg_starburst"
+            android:src="@drawable/button_icon_info_big" />
+
+        <ImageView
+            android:id="@+id/settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/bg_starburst"
+            android:src="@drawable/button_icon_settings_big" />
+
+        <ImageView
+            android:id="@+id/sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/settings"
+            android:background="@drawable/bg_starburst"
+            android:src="@drawable/button_icon_soundon_big" />
+
+        <TextView
+            android:id="@+id/gametitile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/gamelist"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Klondike Deal 3"
+            android:textColor="@color/solebon_gold"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/icon_winningdeals"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/gametitile"
+            android:src="@drawable/fav_star_on" />
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+
+    <com.solebon.solitaire.view.GameBoard
+        android:id="@+id/gameboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/toolbar"
+        android:layout_below="@id/titlebar"/>
+
+    <LinearLayout
+        android:id="@+id/statusbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/toolbar"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/moves"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/solebon_gold"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/solebon_gold"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/solebon_gold"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/stock"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/solebon_gold"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/titlebar_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="7dp"
+        android:layout_below="@id/titlebar"
+        android:background="@drawable/titlebar_shadow" />
+
+    <RelativeLayout
+        android:id="@+id/color_select_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true">
+
+            <View
+                android:id="@+id/color_bg"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:background="#0f0" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/color_slider_bg" />
+
+            <TextView
+                android:id="@+id/reset_color"
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_graybar"
+                android:gravity="center"
+                android:text="Reset"
+                android:textColor="#929292"
+                android:textSize="14sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@drawable/slider_track" />
+
+            <SeekBar
+                android:id="@+id/seekbar_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:progressDrawable="@android:color/transparent"
+                android:thumb="@drawable/slider_ball" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

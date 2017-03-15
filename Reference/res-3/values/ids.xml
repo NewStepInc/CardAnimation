@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="view_gamelist_item" type="id"/>
+    <item name="view_editlist_item" type="id"/>
+
+    <item name="view_pref_dialog" type="id"/>
+    <item name="view_pref_boolean" type="id"/>
+    <item name="view_pref_integer" type="id"/>
+
+    <item name="view_stat_item" type="id"/>
+    <item name="view_stat_footer" type="id"/>
+</resources>

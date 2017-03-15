@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/newgame"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_starburst"
+            android:padding="12dp"
+            android:src="@drawable/toolbutton_new_on" />
+
+        <TextView
+            android:id="@+id/newgame_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/toolbar_new"
+            android:textColor="@color/solebon_gold"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/restartgame"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_starburst"
+            android:padding="12dp"
+            android:src="@drawable/toolbutton_restart_on" />
+
+        <TextView
+            android:id="@+id/restartgame_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/toolbar_restart"
+            android:textColor="@color/solebon_gold"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rules"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_starburst"
+            android:padding="12dp"
+            android:src="@drawable/toolbutton_rules_on" />
+
+        <TextView
+            android:id="@+id/rules_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/toolbar_rules"
+            android:textColor="@color/solebon_gold"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/undo_rev"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_starburst"
+            android:padding="12dp"
+            android:src="@drawable/toolbutton_undo_on" />
+
+        <TextView
+            android:id="@+id/undo_rev_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/toolbar_undo"
+            android:textColor="@color/solebon_gold"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/stats"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_starburst"
+            android:padding="12dp"
+            android:src="@drawable/toolbutton_gamecenter_on" />
+
+        <TextView
+            android:id="@+id/stats_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/toolbar_stats"
+            android:textColor="@color/solebon_gold"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/match"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_starburst"
+            android:padding="12dp"
+            android:src="@drawable/toolbutton_matchplay_on" />
+
+        <TextView
+            android:id="@+id/match_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/toolbar_match"
+            android:textColor="@color/solebon_gold"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/autoplay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_starburst"
+            android:padding="12dp"
+            android:src="@drawable/toolbutton_autoplay_on" />
+
+        <TextView
+            android:id="@+id/autoplay_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/toolbar_auto"
+            android:textColor="@color/solebon_gold"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/undo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_starburst"
+            android:padding="12dp"
+            android:src="@drawable/toolbutton_undo_on" />
+
+        <TextView
+            android:id="@+id/undo_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/toolbar_undo"
+            android:textColor="@color/solebon_gold"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rules_rev"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_starburst"
+            android:padding="12dp"
+            android:src="@drawable/toolbutton_rules_on" />
+
+        <TextView
+            android:id="@+id/rules_rev_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-12dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:text="@string/toolbar_rules"
+            android:textColor="@color/solebon_gold"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

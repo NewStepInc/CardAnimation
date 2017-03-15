@@ -1,0 +1,219 @@
+<resources>
+    <string name="app_name">Solebon Solitaire</string>
+
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="restart">Restart</string>
+    <string name="deal">Deal</string>
+    <string name="done">Done</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="longdash">&#8213;</string>
+    <string name="right_filled_arrow">&#9658;</string>
+    <string name="minutes">minutes</string>
+    <string name="seconds">seconds</string>
+
+    <string name="game_list">Game List</string>
+    <string name="how_to_play">How to Play</string>
+    <string name="rules">Rules</string>
+    <string name="settings">Settings</string>
+    <string name="stats">Stats</string>
+    <string name="leaders">Leaders</string>
+    <string name="reset_stats"><u>Reset Stats</u></string>
+    <string name="warning">Warning</string>
+    <string name="share">Share</string>
+
+    <string name="not_selected_yet">Not Selected Yet</string>
+
+    <string name="toolbar_new">New</string>
+    <string name="toolbar_restart">Restart</string>
+    <string name="toolbar_rules">Rules</string>
+    <string name="toolbar_stats">Stats</string>
+    <string name="toolbar_match">Match</string>
+    <string name="toolbar_auto">Auto</string>
+    <string name="toolbar_undo">Undo</string>
+
+    <string name="tutorial_welcome_to">Welcome to</string>
+    <string name="tutorial_appname">Solebon 1.0</string>
+    <string name="tutorial_gamelist">Game List: Tap to play any of the 50 Solebon solitaire games.</string>
+    <string name="tutorial_dealinfo">Deal Info: Tap for detail on any Winning Deal to see moves and time required to win.</string>
+    <string name="tutorial_settings">Settings: Tap to change card designs and colors, game sounds, animations, and other game play options.</string>
+    <string name="tutorial_new_this_version">New in Solebon 1.0</string>
+    <string name="tutorial_new_feature_content">Invite your friends to play one of your Winning Deals.  Compete to see who can win with the most points, fewest moves, and shortest time to win the Match.</string>
+
+    <string name="dialog_newdeal_message">The current game will be lost.\nAre you sure?</string>
+    <string name="dialog_restart_message">The the game will start over.\nAre you sure?</string>
+
+    <string name="creatematch_title">Create Match</string>
+    <string name="creatematch_message">Share a solitaire deail with friends and track scores in real-time with Match Play.</string>
+    <string name="creatematch_length_label">Begin by choosing the length of your Match:</string>
+    <string name="creatematch_days">Days: </string>
+    <string name="creatematch_hours">Hours: </string>
+    <string name="creatematch_customize_message">You will customize your Match and share it with friends on subsequent screens.\n\nSimply tap Next to continue.</string>
+    <string name="creatematch_length_error">Your Match must have a length of at least 1 hour.</string>
+
+    <string name="customizemessage_title">Customize Message</string>
+    <string name="customizemessage_checkbox">Check to customize a message for the winners of your Match Play deal.</string>
+    <string name="customizemessage_intro_label">Intro text (optional)</string>
+    <string name="customizemessage_intro_hint">{username} says this game was</string>
+    <string name="customizemessage_cardwords_label">Two lines of card words</string>
+    <string name="customizemessage_line1_hint">WELL</string>
+    <string name="customizemessage_line2_hint">PLAYED!</string>
+    <string name="customizemessage_taphere_message">Tap here to see a sample message.</string>
+    <string name="customizemessage_tap_next">Simply tap Next to continue.</string>
+
+    <string name="sharematch_title">Share Match</string>
+    <string name="sharematch_message">Tap below to send your Match.  You will preview each Share before mein sent.</string>
+    <string name="sharematch_message2">After each Share, you will return to this screen where you can select another sharing method.</string>
+    <string name="sharematch_textmessage">Text</string>
+    <string name="sharematch_facebook">Facebook</string>
+    <string name="sharematch_other">Other</string>
+    <string name="sharematch_warning">You haven\'t shared this Match.  Are you sure you want to abandon the Match?</string>
+
+    <string name="matchboards_title">Match Boards</string>
+    <string name="matchboards_allmatches">All Matches</string>
+    <string name="matchboards_mymatches">My Matches</string>
+    <string name="matchboards_summary">Summary</string>
+    <string name="matchboards_dealer">Dealer</string>
+    <string name="matchboards_numplayers"># of Players</string>
+    <string name="matchboards_game">Game</string>
+    <string name="matchboards_timeremaining">Time Remaining</string>
+    <string name="matchboards_welcome_title">Welcome to Match Play!</string>
+    <string name="matchboards_welcome_message">Create your first match by tapping on the Create Match button which can be found:\n\nAt the start of any Winning Deal game, tap the name of the game at the top of the play field to access Create Match and other deal information.\n\nAfter you have won a Winning Deal game, the Create Match button will be accessible below your deal statistics.</string>
+    <string name="matchboards_tap_any_row">Tap any row to view details or tap &#9658; to play the match.</string>
+
+    <string name="matchsettings_title">Match Settings</string>
+    <string name="matchsettings_matchplay">Match Play</string>
+    <string name="matchsettings_playername">Player Name:</string>
+    <string name="matchsettings_taphere_message">Tap here to verify your account using your email address.  This will allow you to recover the account if your device is lost as well as connect your account to more than one device.</string>
+    <string name="matchsettings_verified_message">A verification email has been sent to your email address.  Tap the verification link in your email box on this device to complete your account setup.</string>
+    <string name="matchsettings_matchplayid">Match Play ID:</string>
+    <string name="matchsettings_taptodisconnect">Tap to Disconnect Your Account</string>
+    <string name="matchsettings_viewprivacy">View Privacy Policy</string>
+    <string name="matchsetting_matchplay_off_message">Turn Match Play on to enjoy sharing\nsolitaire deals with your friends and\ncompeting for high scores.</string>
+
+    <string name="matchsettings_disconnect_title">Caution</string>
+    <string name="matchsettings_disconnect_message">You have not validated your account with an email address.  If you disconnect the account you will not be able to recover any matches saved under this account and you will not be able to recover this player name.  Are you sure you want to proceed?</string>
+
+    <string name="matchsettings_create_title">Create User Name</string>
+    <string name="matchsettings_create_name_label">We have your player name as:</string>
+    <string name="matchsettings_create_message">Type in the above box to change your player name.  This can be changed at any time within Settings.\n\nSimply tap Next to continue.</string>
+
+    <string name="matchsettings_verify_title">Email Address</string>
+    <string name="matchsettings_verify_hint">Your Email Address</string>
+    <string name="matchsettings_verify_message">Type in the above box to set the email address we will use to verify your account.  Tapping \'Next\' will send a verification email from our server to this email address.  You will need to tap the link in that email from this device in order to verify your account.  This can be changed at any time within Settings.\n\nSimply tap Next to continue.</string>
+    <string name="matchsettings_verify_warning">This does not look like a proper email address.</string>
+
+    <string name="match_help">Match Help</string>
+
+    <string name="winningdeal_title">Winning Deal</string>
+    <string name="winningdeal_dealid">Deal ID {dealid}</string>
+    <string name="winningdeal_message">This deal was won in {time} with {moves} moves.  Though a proven winner, it is still a challenge.  Good luck!\n\nInvite your friends to play this deal by tapping Create Match now or after you win this deal.</string>
+
+    <string name="matchplaydeal_title">Match Play Deal</string>
+    <string name="matchplaydeal_message">{username} created this challenge to a game of {game}.\n\nPlayers have {time-remaining}  to win this Match. Good Luck!</string>
+    <string name="matchplaydeal_time_remaining_days">{days} days {hours} hours {minutes} minutes</string>
+    <string name="matchplaydeal_time_remaining_hours">{hours} hours {minutes} minutes</string>
+
+    <string name="matchdetails_title">Match Details</string>
+    <string name="matchdetails_overall_rank">Overall Rank</string>
+    <string name="matchdetails_shortest_win">Shortest Win</string>
+    <string name="matchdetails_fewest_moves">Fewest Moves</string>
+
+    <string name="winningdeal_pref_title">Winning Deals</string>
+    <string name="winningdeal_pref_slider_label">Set the mix of traditional random deals and verified winning deals with the slider below:</string>
+    <string name="winningdeal_pref_alldeals">All Winning Deals</string>
+    <string name="winningdeal_pref_message">Winning deals are available for all 50 Solebon Solitaire games.  An internet connection is required for Winning Deals.</string>
+
+    <string name="settings_all_games">All Games</string>
+    <string name="settings_card_options">Card Options</string>
+    <string name="settings_card_set">Card Set</string>
+    <string name="settings_card_back">Card Back</string>
+    <string name="settings_card_back_color">Card Back Color</string>
+    <string name="settings_deal_animation">Deal Animation</string>
+    <string name="settings_winning_animation">Winning Animation</string>
+    <string name="settings_winning_sounds">Winning Animation Sounds</string>
+    <string name="settings_all_winning_deals">All Winning Deals</string>
+    <string name="settings_match_play">Match Play is {value}</string>
+    <string name="settings_playfield_options">Playfield Options</string>
+    <string name="settings_background_color">Background Color</string>
+    <string name="settings_sound_level">Sound Level</string>
+    <string name="settings_navigation_options">Navigation Options</string>
+    <string name="settings_enable_pinch_to_zoom">Enable Pinch To Zoom</string>
+    <string name="settings_double_tap_to_zoom">Double Tap to Zoom</string>
+    <string name="settings_long_press_hides">Long Press Hides Toolbar</string>
+    <string name="settings_lock_orientation">Lock Orientation</string>
+    <string name="settings_card_speed">Card Speed</string>
+    <string name="settings_screen_options">Screen Options</string>
+    <string name="settings_show_score">Show Score</string>
+    <string name="settings_show_time">Show Time</string>
+    <string name="settings_show_moves">Show Moves</string>
+    <string name="settings_show_stock_count">Show Stock Count</string>
+    <string name="settings_show_icon_labels">Show Icon Labels</string>
+    <string name="settings_show_leaderboards">Show Leaderboards</string>
+    <string name="settings_swap_undo_and_rules">Swap Undo &amp; Rules Buttons</string>
+    <string name="settings_other_options">Other Options</string>
+    <string name="settings_share_this_app">Share This App</string>
+    <string name="settings_remove_ads">Remove Ads</string>
+    <string name="settings_tap_to_rate">Tap to Rate</string>
+    <string name="settings_cardback_message">Tap a card back to select it, tap Done when finished.</string>
+
+    <string name="statbar_moves">Moves: {moves}</string>
+    <string name="statbar_score">Score: {score}</string>
+    <string name="statbar_time">Time: {time}</string>
+    <string name="statbar_stock">Stock: {stock}</string>
+
+    <string name="stats_plays">Plays</string>
+    <string name="stats_times">Times</string>
+    <string name="stats_moves">Moves</string>
+    <string name="stats_streaks">Streaks</string>
+    <string name="stats_scores">Scores</string>
+    <string name="stats_games_played">Games Played</string>
+    <string name="stats_games_won">Games Won</string>
+    <string name="stats_games_lost">Games Lost</string>
+    <string name="stats_percent_won">Percent Won</string>
+    <string name="stats_wins_without_undo">Wins Without Undo</string>
+    <string name="stats_total_time_played">Total Time Played</string>
+    <string name="stats_average_game_time">Average Game Time</string>
+    <string name="stats_average_win_time">Average Win Time</string>
+    <string name="stats_shortest_win_time">Shortest Win Time</string>
+    <string name="stats_longest_win_time">Longest Win Time</string>
+    <string name="stats_fewest_winning_moves">Fewest Winning Moves</string>
+    <string name="stats_most_winning_moves">Most Winning Moves</string>
+    <string name="stats_current_streak">Current Streak</string>
+    <string name="stats_longest_win_streak">Longest Win Streak</string>
+    <string name="stats_longest_loss_streak">Longest Loss Streak</string>
+    <string name="stats_current_running_score">Current Running Score</string>
+    <string name="stats_higest_running_score">Highest Running Score</string>
+    <string name="stats_lowest_running_score">Lowest Running Score</string>
+    <string name="stats_average_game_score">Average Game Score</string>
+    <string name="stats_best_game_score">Best Game Score</string>
+    <string name="stats_footer_message">Stats do not include games in progress.</string>
+
+    <string name="winningstats_current_label">Current</string>
+    <string name="winningstats_best_label">Best</string>
+    <string name="winningstats_shortesttime_label">Shortest Time:</string>
+    <string name="winningstats_fewestmoves_label">Fewest Moves:</string>
+    <string name="winningstats_gamescore_label">Game Score:</string>
+    <string name="winningstats_winstreak_label">Win Streak:</string>
+
+    <string name="winningstats_firstwin">This is your first win!</string>
+    <string name="winningstats_invitation">Invite your friends to play this deal by tapping Create Match.</string>
+    <string name="winningstats_quickestwin">This was your quickest win!</string>
+    <string name="winningstats_fewestmoves">You won in your fewest moves!</string>
+    <string name="winningstats_bestscore">This was your best score!</string>
+    <string name="winningstats_longeststreak">This is your longest win streak!</string>
+
+    <string name="popup_resetstats_title">Reset stats?</string>
+    <string name="popup_resetstats_message">Your stats will be reset to zero.\nAre you sure?</string>
+
+
+    <string name="popup_gamelist_message">Tap the FAVS button to only view games marked as favorites.  Tap it again to view all of the games.\n\nTap the EDIT button to edit the list of games and add or remove games from your favorites list.</string>
+
+    <string name="loadwinningdeals_error_message">Solebon has been unable to reach the Winning Deals server so random deals will be generated until connectivity has been restored.</string>
+    <string name="create_username_error_message">Sorry, that User Name is already taken.</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:clipToPadding="false"
+    android:clipChildren="false">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="14dp"
+        android:text="@string/settings_card_set"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"/>
+
+    <ImageView
+        android:id="@+id/cardset_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/card_spade_k_1"/>
+
+    <ImageView
+        android:id="@+id/cardset_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/card_spade_k_2"
+        android:alpha=".4"/>
+
+    <ImageView
+        android:id="@+id/cardset_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/card_spade_k_3"
+        android:alpha=".4"/>
+
+    <ImageView
+        android:id="@+id/cardset_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/card_spade_k_4"
+        android:alpha=".4"/>
+
+</LinearLayout>

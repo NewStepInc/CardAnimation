@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#003c15</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#B69970</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#208031</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_white">#33ffffff</color>
+    <color name="transparent_black">#33000000</color>
+
+    <color name="solebon_gold">#B69970</color>
+    <color name="html_info_bg">#651500</color>
+    <color name="maroon">#651500</color>
+
+    <color name="settings_text_other">#0000ff</color>
+    <color name="settings_item_bg">#E7DDC4</color>
+</resources>
