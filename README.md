@@ -1,2 +1,3 @@
 # CardAnimation
-Android animation with cards
+Android
+iOS (objective-C)
